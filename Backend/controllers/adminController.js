@@ -1,0 +1,14 @@
+import db from '../config/db.js';
+
+export const getDashboardStats = async (req, res) => {
+  try {
+    const [[{ userCount }]] = await db.query("SELECT COUNT(*) as userCount FROM users");
+    const [[{ storeCount }]] = await db.query("SELECT COUNT(*) as storeCount FROM stores");
+    const [[{ ratingCount }]] = await db.query("SELECT COUNT(*) as ratingCount FROM ratings");
+
+    res.json({ users: userCount, stores: storeCount, ratings: ratingCount });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Failed to fetch dashboard stats" });
+  }
+};
