@@ -128,15 +128,26 @@ The frontend follows a modern React application structure with:
    - Component-level state management
    - Authentication state handling
 
+---
+# How to run the Frontend project : 
 
 
-# 1. Open your terminal
+ 1. Open your terminal
 
-# 2. Navigate to the frontend directory
-cd frontend
+ 2. Navigate to the frontend directory
+ `cd frontend`
 
-# 3. Install dependencies
-npm install
+ 3. Install dependencies
+ `npm install`
 
-# 4. Start the development server
-npm run dev
+ 4. Start the development server
+ `npm run dev`
+
+
+---
+
+
+```
+NOTE:
+Since the backend implementation is not yet complete, I have added three buttons on the Home page of StoreSavvy to simulate the experience for different user roles. Please click on these buttons to navigate through the respective screens.
+```

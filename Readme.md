@@ -135,4 +135,6 @@ All users share:
 - Implement **ProtectedRoute** enforcement by role
 
 ---
-
+```
+NOTE: Entire implementation for the frontend is done.
+```
