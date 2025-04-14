@@ -1,5 +1,3 @@
-Absolutely — here’s the **complete global architecture flow** for the **StoreSavvy platform**, covering all three roles — **Admin**, **Normal User**, and **Store Owner** — in a **technology-agnostic, full-system view** (frontend, backend, database, auth, routing, permissions, and logic layers) without tying it to folders, files, or code structure.
-
 ---
 
 ## 🌐 **StoreSavvy Architecture Flow (End-to-End)**
